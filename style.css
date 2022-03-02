@@ -1,0 +1,453 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800|Raleway:400,200,100,300,500,600,700,800,900");
+body{
+    font-family: Raleway, Arial, sans-serif ;
+}
+header{
+    display: flex;
+    margin: 0px;
+    background-color: #27242b;
+    border-bottom: 0.1px solid #3d9f96;
+    text-align: center;
+    align-items: center;
+}
+
+header>div{
+    width: 100%;
+    text-align: center;
+}
+
+header>.option a{
+    color: white;
+    text-decoration: none;
+    padding: 0% 10%;
+    font-weight: bold;
+}
+
+header>.option>ul{
+    display: inline-flex;
+    list-style: none;
+}
+
+header>.get a{
+    color: #3d9f96;
+}
+
+header>.get{
+    margin: 20px 0px;
+}
+.logo_sayna img{
+    width: 50%;
+}
+
+/*forme de la 1er partie de la page*/
+#part1{
+    background-color: #27242b;
+    background-image: url("img/image_600px_1.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: bottom;
+    margin: 0px;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 300px;
+}
+
+.part1{
+    margin: 0px;
+    color: white;
+    font-weight: lighter;
+    font-size: x-large;
+}
+
+.part1>.gras{
+    display: inline;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.part2{
+    color: #3d9f96;
+    margin: 3% 0%;
+    font-size: xx-small;
+}
+
+.part3{
+    color: white;
+    font-size: x-small;
+}
+
+
+.RS{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+ /*partie 2 de la page en longueur*/
+.RS>p{
+    margin: 1% 0.5%;
+}
+
+.titre_bleu{
+    text-align: center;
+    color: #3d9f96;
+    font-size: large;
+    font-weight: bold;
+}
+
+.nosprod{
+    text-align: center;
+}
+
+.nosprod>.part1{
+    font-size: 50px;
+    color: black;
+    margin-top: 100px;
+}
+
+.nosprod>p{
+    margin-top: 40px;
+    font-size: 20px;
+    color: rgba(112, 112, 112, 0.8);
+}
+
+/*partie trois en un*/
+
+.troisen1{
+    display: flex;
+    text-align: center;
+    margin: 60px 10%;
+    justify-content: center;
+    background-image: url("img/map_bg.png");
+}
+
+.unsur3{
+    width: 100%;
+    margin: 0px;
+    padding: 0px 2%;
+    justify-content: center;
+}
+
+.autre_icon{
+    width: 8%;
+}
+
+.prod1, .prod2, .prod3{
+    margin-top: 40px;
+}
+
+.prod1>p, .prod2>p, .prod3 > p{
+    margin: 0 0 5px 0;
+    font-size: 25px;
+    padding: 10px 0px;
+}
+
+.prod_content{
+    font-size: 1em;
+}
+
+.img_tel1{
+    width: 100%;
+    padding: 0px;
+}
+
+/*section avec avatar du milieu*/
+
+.avatar_milieu{
+    background-color: #27242b;
+    margin-top: 100px;
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.avatar_milieu p{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1em;
+}
+
+.avatar_milieu>.john{
+    color: #3d9f96;
+}
+
+/*screenshot du milieu*/
+.screenshot{
+    margin: 100px 0;
+    background-color: #f7f7f7;
+    padding: 0 15%;
+}
+
+.titre_screenshot{
+    color:black;
+    font-weight: lighter;
+    font-size: x-large;
+}
+
+.titre_screenshot>.gras{
+    display: inline;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.img_screenshot{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 5%;
+}
+
+.img_screenshot img{
+    width: 100%;
+}
+
+.img_screenshot figure{
+    width: 100%;
+}
+
+.img_screenshot figcaption{
+    font-weight: bold;
+}
+
+/*section é en 1*/
+
+.deuxen1{
+    text-align: center;
+    justify-content: center;
+}
+
+.unsur2{
+    display: flex;
+    margin: 50px 20%;
+    padding-top: 50px;
+}
+
+.unsur2>div{
+    width: 100%;
+}
+
+.unsur2_content p{
+        display: inline;
+        color:black;
+        font-weight: lighter;
+        font-size: xx-large;
+}
+
+.content_bas{
+    padding-top: 30px;
+    font-size: 15px;
+    opacity: 0.8;
+    line-height: 30px;
+}
+
+.unsur2_content>button{
+    margin-top: 60px;
+}
+
+/*contact et info*/
+
+.contact{
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+    background-color: #f7f7f7;
+    padding: 15px 12%;
+}
+
+.contact_part1 img{
+    width: 95%;
+}
+
+.contact_part1, .contact_part2, .contact_part3 {
+    padding: 0px 5%;
+}
+
+.contact_part1{
+    width: 40%;
+}
+
+.contact_part3{
+    width: 40%;
+}
+
+.sayna_lettre{
+    color: grey;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    padding: 10px 5%;
+}
+
+footer > div{
+    width: 100%;
+}
+
+.rs_contact{
+    text-align: right;
+}
+
+.rs_contact img{
+    padding: 0px 1%;
+    width: 30px;
+}
+
+.cpright{
+    opacity: 0.8;
+    font-size: 10px;
+}
+
+
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+
+/* style pour l'option resposive */
+
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+
+@media screen and (max-width: 752px){
+    
+    header{
+        font-size: 12px;
+    }
+
+    header>.option, header>.get{
+        display: none;
+    }
+
+    #part1{
+        padding-bottom: 215px;
+        background-position-y: bottom;
+    }
+    .part1, .part1>.gras{
+        font-size: large;
+    }
+
+    .part2{
+        font-size: x-small;
+    }
+
+    .part3{
+        font-size: xx-small;
+    }
+
+    .part4 button{
+        font-size: 12px;
+    }
+
+
+    .titre_bleu{
+        font-size: 14px;
+    }
+
+    .troisen1{
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .nosprod>.part1{
+        font-size: large;
+        margin-top: 50px;
+    }
+
+    .nosprod>p{
+        margin-top: 20px;
+        font-size: 9px;
+    }
+
+    .troisen1{
+        display: block;
+        font-size: 9px;
+    }
+
+    .prod1>p, .prod2>p, .prod3 > p{
+        font-size: 16px;
+    }
+
+    .prod1, .prod2, .prod3{
+        margin: 10% 0px;
+    }
+
+    .avatar_milieu{
+        padding: 15px 0px;
+    }
+
+    .avatar_milieu img{
+        width: 12%;
+    }
+
+    .avatar_milieu p{
+        font-size: 0.7em;
+    }
+
+    .screenshot{
+        margin: 25px 25px;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .titre_screenshot{
+        font-weight: lighter;
+        font-size: 20px;
+    }
+    
+    .titre_screenshot>.gras{
+        font-weight: bold;
+        font-size: 22px;
+    }
+
+    .img_screenshot{
+        display: block;
+        text-align: center;
+        margin-left: -18%;
+        margin-right: 6%;
+    }
+
+    .unsur2{
+        display: block;
+    }
+
+    .unsur2_content p{
+        font-size: 20px;
+    }
+
+    .unsur2_content{
+        padding-bottom: 15px;
+    }
+
+    .content_bas{
+        font-size: 12px;
+    }
+
+    .contact{
+        display: block;
+        text-align: center;
+        align-items: center;
+    }
+
+    .contact_part1, .contact_part2, .contact_part3 {
+        padding: 10px 0px;
+        width: 95%;
+        margin: 0px auto;
+    }
+
+    footer{
+        display: block;
+        padding: 5px 5%;
+        text-align: center;
+    }
+    
+    footer>div{
+        padding: 10px 0px;
+    }
+
+    .cpright{
+        font-size: 8px;
+    }
+    .rs_contact{
+        text-align: center;
+    }
+
+    .rs_contact img{
+        width: 25px;
+        padding: 0px 10%;
+    }
+
+}
